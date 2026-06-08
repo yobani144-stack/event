@@ -10,7 +10,7 @@ fetch('confirmacion.html')
 function enviarWhatsApp(event) {
     event.preventDefault();
     
-    const telefono = "525638700248"; // <-- SUSTITUYE CON TU NÚMERO (Código de país + número)
+    const telefono = "527191255411"; // <-- SUSTITUYE CON TU NÚMERO (Código de país + número)
     const mensaje = encodeURIComponent("¡Hola! Me encantaría confirmar mi asistencia a la boda de Rosa Isela y Diego. ¡Muchas gracias por la invitación! ✨");
     
     const url = `https://wa.me/${telefono}?text=${mensaje}`;
